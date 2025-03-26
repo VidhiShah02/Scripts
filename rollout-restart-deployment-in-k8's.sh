@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of services (Modify as needed or pass as arguments)
-SERVICES=("comm-daemon"  "comm-proxy-service"  "uni-net-base-image-demo-client"  "uni-analytics-alert-processing-service"  "ped-net-base-image"  "uni-parameter-store-service"  "api-service-net-image"  "test-automation-service"  "fin-frost-daemon"  "pub-external-offer-service"  "test-universal-service"  "cha-external-offer-service")
+SERVICES=("app1" "app2" ...)
 
 # Use arguments if provided, otherwise use default list
 if [ "$#" -gt 0 ]; then
